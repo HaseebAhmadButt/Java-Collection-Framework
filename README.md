@@ -97,11 +97,8 @@ In Java, the List interface is a Sub-interface of the Collection interface. It r
 `LinkedList:` It uses a doubly linked list to store the elements internally. Each element is stored in a separate node, and the nodes are linked together, allowing for efficient insertion and deletion operations.
 
 2. Performance:
-
 `Random Access:` ArrayList provides fast random access to elements by index using the get() method. The time complexity for random access is O(1).
-<br/>
 `Insertion/Deletion:` LinkedList performs better than ArrayList for frequent insertion and deletion operations, especially near the beginning or middle of the list. The time complexity for insertion/deletion is O(1) when performed at the beginning or end of the list. However, it requires traversing the list to find the insertion/deletion position, resulting in O(n) time complexity for operations in the middle of the list.
-<br/>
 `Iteration:` ArrayList is generally faster for sequential access and iteration, as it provides efficient random access. LinkedList may be slower for iteration due to the need to traverse the list sequentially.
 
 3. Memory Usage:
