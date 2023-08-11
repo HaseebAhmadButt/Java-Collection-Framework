@@ -34,27 +34,21 @@ The Collection interface in Java is a fundamental interface that provides a unif
 Here are some key points about the Collection interface:
 
 1. Purpose: 
-<br />
 The Collection interface represents a group of objects known as elements. It provides methods for adding, removing, and manipulating elements in a collection.
 
 2. Structure:
-<br />
 The Collection interface does not enforce any specific order or indexing of elements. It is a generic interface that can work with any type of objects using type parameters.
 
 3. Methods:
-<br />
 The Collection interface defines several methods to perform common operations on collections, such as adding elements, removing elements, checking for containment, iterating over elements, and more. Some of the commonly used methods include add, remove, contains, size, isEmpty, iterator, and toArray.
 
 4. Inheritance:
-   <br />
 The Collection interface extends the Iterable interface, which enables collections to be iterated using the enhanced for-loop or by explicitly obtaining an iterator.
 
 5. Subinterfaces:
-   <br />
 The Collection interface is the parent interface for more specialized collection interfaces like List, Set, and Queue. These subinterfaces provide additional behavior and semantics specific to different types of collections.
 
 6. Implementations:
-   <br />
 The Collection interface itself does not provide a concrete implementation. However, you can find various classes that implement the Collection interface, such as ArrayList, LinkedList, and HashSet.
 
 By using the Collection interface, you can write more generic code that can work with different types of collections interchangeably. It provides a unified way to manipulate and process groups of objects, making it easier to work with collections of data in Java.
